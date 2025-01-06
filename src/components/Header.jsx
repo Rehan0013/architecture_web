@@ -19,7 +19,7 @@ const Header = () => {
         )}
         {isOpen && (
           <>
-            <MenuItems className={`menu-items ${isOpen ? "show" : ""}`} />
+            <MenuItems className={`menu-items ${isOpen && "show"}`} />
             <IconBtn children="✕" onClick={toggleIsOpen} />
           </>
         )}

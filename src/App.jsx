@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import PageTitle from "./components/PageTitle"
+import ImageSlider from "./components/ImageSlider"
 
 function App() {
 
@@ -8,11 +9,10 @@ function App() {
     <>
       <PageTitle title="Company Name"/>
       <Header/>
-      <div className="m">
-      </div>
+      <ImageSlider/>
       <Footer/>
     </>
   )
 }
 
-export default App
+export default App;
