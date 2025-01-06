@@ -9,7 +9,7 @@
   color: #000;
   border: 2px solid #000;
   border-radius: 8px;
-  margin: 10px 5px;
+  margin: 10px 2px;
   height: 40px;
   width: 130px;
   font-size: 15px;
@@ -55,7 +55,7 @@
 .nav_Icnbtn{
   color: #000;
   margin: 6px;
-  margin-left: 0;
+  margin-left: -12.5px;
   height: 40px;
   width: 40px;
   font-size: 15px;
