@@ -240,17 +240,32 @@ a:hover {
 
 .text {
   position: absolute;
-  bottom: 150px;
+  bottom: 170px;
   left: 50px;
   color: rgb(0, 0, 0);
-  font-size: 24px;
   background: rgba(255, 255, 255, 0.166);
   backdrop-filter: blur(3px);
   border-radius: 10px;
   width: 600px;
-  padding-left: 10px;
+  padding: 10px;
   height: auto;
-  transition: all 1s ease;;
+  border: 1px solid #000000aa;
+  transition: all 1s ease;
+  text-align: justify;
+}
+
+.text h2 {
+  margin: 5px 0px 10px 0px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000;
+}
+
+.text p {
+  margin: 5px 7px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
 }
 
 .dots {
