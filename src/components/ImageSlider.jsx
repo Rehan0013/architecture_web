@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import slider from "../data";
-import { useToggle } from "../hooks/useToggle";
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isOpen, toggleIsOpen] = useToggle(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,6 +11,10 @@ const ImageSlider = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  const goTo = (index) => {
+    setCurrentIndex(index);
+  };
 
   return (
     <div className="slider">
@@ -33,7 +35,7 @@ const ImageSlider = () => {
           <span
             key={index}
             className={`dot ${index === currentIndex ? "active" : ""}`}
-            onClick={() => setCurrentIndex(index)}
+            onClick={() => goTo(index)}
           ></span>
         ))}
       </div>

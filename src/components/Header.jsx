@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 import { useToggle } from '../hooks/useToggle';
 import MenuItems from './MenuItems';
 const Header = () => {
-  
+
   const [isOpen, toggleIsOpen] = useToggle(false);
 
   return (
     <div className='header'>
       <Link className='left' to="/">COMPANY LOGO</Link>
       <div className="right">
-        <Link to="/contact">
+        <Link to="/contact" className='hidden'>
           <Button children="Contact Us" />
         </Link>
-        <Button children="Admin" />
+        <Button children="Admin" className='hidden'/>
         {!isOpen && (
           <IconBtn children="☰" onClick={toggleIsOpen} />
         )}
