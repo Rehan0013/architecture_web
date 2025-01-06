@@ -316,7 +316,7 @@ a:hover {
 
 @media (max-width: 480px) {
   .header {
-    padding: 10px;
+    padding: 5px;
     gap: 5px;
   }
 
@@ -327,7 +327,7 @@ a:hover {
 
   .header .right {
     margin: 0;
-    gap: 5px;
+    gap: 2px;
   }
 
   .menu-items {
