@@ -373,3 +373,17 @@ a:hover {
     font-size: 12px;
   }
 }
+
+.preloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff url(https://cdn.dribbble.com/users/126448/screenshots/2388978/leh_loading_dribbble.gif) no-repeat center center;
+  background-size: 20%;
+  z-index: 9999;
+}
