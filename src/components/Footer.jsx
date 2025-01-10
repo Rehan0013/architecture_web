@@ -17,13 +17,24 @@ const Footer = () => {
       </div>
       <div className="footer-right">
         <div className="right-top">
-          <a href="www.facebook.com" className="footer-link">
-            Facebook
-          </a>
-          <a href="www.instagram.com" className="footer-link">
-            Instagram
-          </a>
-        </div>
+          <a
+            href="https://www.facebook.com"
+            className="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+      Facebook
+    </a>
+    <a
+      href="https://www.instagram.com"
+      className="footer-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Instagram
+    </a>
+  </div>
+
         <div className="right-bottom">
           <a href="/">BUILT BY RUS</a>
         </div>

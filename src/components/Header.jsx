@@ -12,9 +12,9 @@ const Header = () => {
       <Link className='left' to="/">COMPANY LOGO</Link>
       <div className="right">
         <Link to="/contact" className='hidden'>
-          <Button children="Contact Us" />
+          <Button className='nav_button' children="Contact Us" />
         </Link>
-        <Button children="Admin" className='hidden'/>
+        <Button className='nav_button' children="Admin" />
         {!isOpen && (
           <IconBtn children="☰" onClick={toggleIsOpen} />
         )}
