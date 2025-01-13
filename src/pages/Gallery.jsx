@@ -1,16 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PageTitle from '../components/PageTitle'
 import Header from '../components/Header' 
 import Footer from '../components/Footer'
+import PreLoader from '../components/PreLoader'
 
 const Gallery = () => {
+
+  const [loading, setLoading] = useState(true);
+
   return (
-    <div>
-        <PageTitle title="Gallery"/>
-        <Header/>
-        Gallery
-        <Footer/>
-    </div>
+    <>
+        {loading ? (
+          <PreLoader setLoading={setLoading} />
+        ) : (
+          <>
+            <PageTitle title="Gallery"/>
+            <Header/>
+            Gallery
+            <Footer/>
+          </>
+        )}
+    </>
   )
 }
 

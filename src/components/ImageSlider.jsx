@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import slider from "../data";
-import { Link } from "react-router-dom";
-import { Button } from "./Button";
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
