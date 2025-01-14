@@ -16,4 +16,79 @@ const slider = [
     },
 ];
 
-export default slider;
+const projects = [
+    {
+        title: "Title1",
+        img: "https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title2",
+        img: "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title3",
+        img: "https://images.pexels.com/photos/1824392/pexels-photo-1824392.jpeg?auto=compress&cs=tinysrgb&h=204&fit=crop&w=228&dpr=2",
+    },
+    {
+        title: "Title4",
+        img: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title5",
+        img: "https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title6",
+        img: "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title7",
+        img: "https://images.pexels.com/photos/1774931/pexels-photo-1774931.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title8",
+        img: "https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title9",
+        img: "https://images.pexels.com/photos/1874636/pexels-photo-1874636.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title10",
+        img: "https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title11",
+        img: "https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title12",
+        img: "https://images.pexels.com/photos/1662159/pexels-photo-1662159.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title13",
+        img: "https://images.pexels.com/photos/1758672/pexels-photo-1758672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+    {
+        title: "Title14",
+        img: "https://images.pexels.com/photos/258846/pexels-photo-258846.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title15",
+        img: "https://images.pexels.com/photos/1650904/pexels-photo-1650904.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title16",
+        img: "https://images.pexels.com/photos/1098460/pexels-photo-1098460.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title17",
+        img: "https://images.pexels.com/photos/1707823/pexels-photo-1707823.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+    {
+        title: "Title18",
+        img: "https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=800",
+    },
+];
+
+export {slider, projects};

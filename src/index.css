@@ -78,7 +78,7 @@ body {
     background-position: 0 0;
   }
   50% {
-    background-position: 100% 100%;
+    background-position: 75% 75%;
   }
   100% {
     background-position: 0 0;
@@ -389,4 +389,31 @@ a:hover {
     no-repeat center center;
   background-size: 20%;
   z-index: 9999;
+}
+
+.image-child img {
+  max-width: 400px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px #0000002e;
+  transition: all 0.5s ease;
+}
+
+.image-parent {
+  column-width: 350px;
+  padding: 75px;
+}
+
+.image-child img:hover {
+  filter: grayscale(0);
+  box-shadow: 7px 7px 10px #0d92b769;
+  transform: scale(1.03);
+}
+
+.image-child {
+  width: 100%;
+}
+
+.image-child:hover img:not(:hover) {
+  filter: grayscale(1);
 }
