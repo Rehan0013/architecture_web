@@ -46,6 +46,11 @@
   color: #000;
 }
 
+.header .left img {
+  height: 170px;
+  margin-top: -65px;
+}
+
 .header .right {
   display: flex;
   gap: 20px;
