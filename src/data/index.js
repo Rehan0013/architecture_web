@@ -16,7 +16,7 @@ const slider = [
     },
 ];
 
-const projects = [
+const images = [
     {
         title: "Title1",
         img: "https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -91,4 +91,22 @@ const projects = [
     },
 ];
 
-export {slider, projects};
+const projects = [
+    {
+        title: "Project1",
+        img: "https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=800",
+        des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        title: "Project2",
+        img: "https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=800",
+        des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        title: "Project3",
+        img: "https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=800",
+        des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+];
+
+export {slider, images, projects};

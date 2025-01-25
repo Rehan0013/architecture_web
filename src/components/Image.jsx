@@ -1,11 +1,11 @@
-import { projects } from "../data";
+import { images } from "../data";
 
 const Image = () => {
     return (
         <div className="image-parent">
             <div className="image-child">
-                {projects.map((project) => (
-                    <img src={project.img} alt={project.title} />
+                {images.map((image) => (
+                    <img src={image.img} alt={image.title} />
                 ))}
             </div>
         </div>

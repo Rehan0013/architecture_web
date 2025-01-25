@@ -36,7 +36,7 @@ const Footer = () => {
   </div>
 
         <div className="right-bottom">
-          <a href="/">BUILT BY RUS</a>
+          <a href="/">BUILT BY Rehan Ali</a>
         </div>
       </div>
     </footer>
